@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="Idioms"
+	ProjectGUID="{40313254-810E-44EB-9C18-1DA3459DE34F}"
+	Keyword="MakeFileProj"
+	TargetFrameworkVersion="196613"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="0"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="%QTDIR%\bin\qmake&#x0D;&#x0A;nmake debug"
+				ReBuildCommandLine="%QTDIR%\bin\qmake&#x0D;&#x0A;nmake debug-clean&#x0D;&#x0A;nmake debug"
+				CleanCommandLine="%QTDIR%\bin\qmake&#x0D;&#x0A;nmake debug-clean"
+				Output="debug\Idioms.exe"
+				PreprocessorDefinitions="WIN32;_DEBUG;UNICODE;QT_LARGEFILE_SUPPORT;QT_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_THREAD_SUPPORT"
+				IncludeSearchPath="%QTDIR%\include;%QTDIR%\include\Qt;%QTDIR%\include\QtCore;%QTDIR%\include\QtGui;%QTDIR%\include\ActiveQt;%QTDIR%\include\Qt3Support;%QTDIR%\include\QtAssistant;%QTDIR%\include\QtDBus;%QTDIR%\include\QtDesigner;%QTDIR%\include\QtNetwork;%QTDIR%\include\QtOpenGL;%QTDIR%\include\QtScript;%QTDIR%\include\QtSql;%QTDIR%\include\QtSvg;%QTDIR%\include\QtTest;%QTDIR%\include\QtUiTools;%QTDIR%\include\QtXml;%QTDIR%\mkspecs\win32-msvc2005;"
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="0"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="%QTDIR%\bin\qmake -config release&#x0D;&#x0A;nmake release"
+				ReBuildCommandLine="%QTDIR%\bin\qmake -config release&#x0D;&#x0A;nmake release-clean&#x0D;&#x0A;nmake release"
+				CleanCommandLine="%QTDIR%\bin\qmake -config release&#x0D;&#x0A;nmake release-clean"
+				Output="release\Idioms.exe"
+				PreprocessorDefinitions="WIN32;NDEBUG;UNICODE;QT_LARGEFILE_SUPPORT;QT_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_THREAD_SUPPORT"
+				IncludeSearchPath="%QTDIR%\include;%QTDIR%\include\Qt;%QTDIR%\include\QtCore;%QTDIR%\include\QtGui;%QTDIR%\include\ActiveQt;%QTDIR%\include\Qt3Support;%QTDIR%\include\QtAssistant;%QTDIR%\include\QtDBus;%QTDIR%\include\QtDesigner;%QTDIR%\include\QtNetwork;%QTDIR%\include\QtOpenGL;%QTDIR%\include\QtScript;%QTDIR%\include\QtSql;%QTDIR%\include\QtSvg;%QTDIR%\include\QtTest;%QTDIR%\include\QtUiTools;%QTDIR%\include\QtXml;%QTDIR%\mkspecs\win32-msvc2005;"
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<File
+			RelativePath=".\dimensionalAnalysis.h"
+			>
+		</File>
+		<File
+			RelativePath=".\factorial.h"
+			>
+		</File>
+		<File
+			RelativePath=".\Idioms.pro"
+			>
+		</File>
+		<File
+			RelativePath=".\ifandswitch.h"
+			>
+		</File>
+		<File
+			RelativePath=".\ifElseDemo.h"
+			>
+		</File>
+		<File
+			RelativePath=".\isPrime.h"
+			>
+		</File>
+		<File
+			RelativePath=".\main.cpp"
+			>
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
