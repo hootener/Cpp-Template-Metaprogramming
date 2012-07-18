@@ -5,4 +5,4 @@ Some small examples of template metaprogramming in action. This code is helpful 
 
 The Idioms folder contains Idioms.sln, use that if you're on Windows and have access to Visual Studio. Otherwise, you can just use the headers and cpp files in your IDE of choice. 
 
-The Idioms project contains series of bools in the main function that determine which TMP tests are performed. You can run some, none, or all of them at once by setting the various bools to true and false. The NoOperator library just demonstrates pretty basic template usage.
+The Idioms project contains a series of bools in the main function that determine which TMP tests are performed. You can run some, none, or all of them at once by setting the various bools to true and false. The NoOperator library just demonstrates pretty basic template usage.
